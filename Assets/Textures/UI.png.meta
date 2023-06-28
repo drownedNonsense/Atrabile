@@ -210,111 +210,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SupplyBarTop
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 55
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55c9bf60bab8cf243b15737878c67b0e
-      internalID: -1292131190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StoryBarTop
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 28
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfd439faf16c821408988923570d2ca5
-      internalID: -991237181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SupplyBarMiddle
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 24
-        width: 6
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4af554112c0cf964e9a10e24dea134a1
-      internalID: 449038829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StoryBarBottom
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 21
-        width: 20
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a4c6d2306ed51146829104ecce0d377
-      internalID: 253037845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SupplyBarBottom
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 12
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7821684ef8124e949a3f1aff8e6a5bcb
-      internalID: 468801761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Box
       rect:
         serializedVersion: 2
@@ -344,7 +239,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,6 +247,48 @@ TextureImporter:
       bones: []
       spriteID: 5bd5c76390ad3b245a14145dbecc15bb
       internalID: -16392782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quill
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0a5e3d5f642a4b9ce7c25231480a8
+      internalID: 850783729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bag
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adbf8654f2fda241ae1a8f612d045c2
+      internalID: -360369024
       vertices: []
       indices: 
       edges: []
@@ -370,9 +307,11 @@ TextureImporter:
       AButton: 1024469793
       Arrow: -16392782
       BButton: -2055026802
+      Bag: -360369024
       Box: 1438794166
       Bullet: 781438566
       BulletEmpty: 691622640
+      Quill: 850783729
       StoryBarBottom: 253037845
       StoryBarTop: -991237181
       SupplyBarBottom: 468801761

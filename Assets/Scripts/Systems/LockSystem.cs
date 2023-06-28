@@ -22,12 +22,15 @@ public sealed class LockSystem : System<LockArchetype>, IInteractable {
     /* L I F E   T I M E */
     /*###################*/
 
-        private void LateUpdate() {
+        private void Update() {
             if (!GameVariables.gamePaused) {
-                if (this.archetype.powerData.activated.stateEnter && this.archetype.data.locked)
-                    this.archetype.audioSource.PlayOneShot(this.action.ActionSound);
 
-                this.archetype.powerData.activated &= !this.archetype.data.locked;
+                if (this.archetype.data.locked) {
+                    switch ((byte)this.archetype.powerData.activated) {
+                        case (State.ENTER) : { this.archetype.audioSource.PlayOneShot(this.action.ActionSound); break; }
+                        default            : { this.archetype.powerData.activated.UnSet(); break; }
+                    } // switch ..
+                } // if ..
             } // if ..
         } // void .
 
@@ -46,9 +49,13 @@ public sealed class LockSystem : System<LockArchetype>, IInteractable {
                         Color.white
                     ); // DisplayDialogue()
 
-                    this.archetype.data.locked.UnSet();
+                    this.archetype.data.locked = false;
                     playerArchetype.inventoryData.storyDriveOrigins.RemoveAt(0);
                     playerArchetype.interactorData.currentAction.SetNone();
+
+                    // Removes lock behaviours.
+                    this.archetype.RemoveSystem(this);
+                    Destroy(this.archetype.data);
 
                 } else UI.DisplayDialogue(
                     playerArchetype,

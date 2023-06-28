@@ -53,6 +53,9 @@
             "m_Id": "2ed173e6c8164f49aa7e25de05f4249a"
         },
         {
+            "m_Id": "239035febe8643cd8348c69cfe3d8dc5"
+        },
+        {
             "m_Id": "b4b8f9d38ea7445c94f5892e30dd0d25"
         },
         {
@@ -1171,6 +1174,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "239035febe8643cd8348c69cfe3d8dc5",
+    "m_Name": "Shading",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "b01ee1abbb284d02b8497e2d16182f18"
+        },
+        {
+            "m_Id": "760fa6b1739c4ccc8782c3fff6882ef9"
+        },
+        {
+            "m_Id": "91fc9b67894a41499887618e38f6d35b"
+        },
+        {
+            "m_Id": "2134442705f24ca0be2f3e2fb52821a6"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "27293c8ad2744477b61bfd3269ba81ae",
     "m_Group": {
@@ -1313,18 +1337,6 @@
     "m_ObjectId": "2ed173e6c8164f49aa7e25de05f4249a",
     "m_Name": "",
     "m_ChildObjectList": [
-        {
-            "m_Id": "b01ee1abbb284d02b8497e2d16182f18"
-        },
-        {
-            "m_Id": "760fa6b1739c4ccc8782c3fff6882ef9"
-        },
-        {
-            "m_Id": "91fc9b67894a41499887618e38f6d35b"
-        },
-        {
-            "m_Id": "2134442705f24ca0be2f3e2fb52821a6"
-        },
         {
             "m_Id": "e995f607091e436a97eb75de32110453"
         },
